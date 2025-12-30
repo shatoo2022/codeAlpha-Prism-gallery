@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prism Gallery | Task 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Prism Gallery</h1>
+        <div class="filter-buttons">
+            <button class="btn active" data-filter="all">All</button>
+            <button class="btn" data-filter="nature">Nature</button>
+            <button class="btn" data-filter="city">City</button>
+            <button class="btn" data-filter="people">People</button>
+        </div>
+    </header>
+
+    <section class="gallery-container">
+        
+        <div class="gallery-item" data-category="nature">
+            <img src="images/nature.jpg" alt="River Valley">
+            <div class="overlay"><span>Nature</span></div>
+        </div>
+        <div class="gallery-item" data-category="nature">
+            <img src="images/nature1.jpg" alt="Snow Mountains">
+            <div class="overlay"><span>Nature</span></div>
+        </div>
+        <div class="gallery-item" data-category="nature">
+            <img src="images/nature2.jpg" alt="nature2">
+            <div class="overlay"><span>Nature</span></div>
+        </div>
+        <div class="gallery-item" data-category="nature">
+            <img src="https://picsum.photos/id/1018/600/400" alt="Nature Road">
+            <div class="overlay"><span>Nature</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+            <img src="images/city.jpg" alt="Canyon City">
+            <div class="overlay"><span>City</span></div>
+        </div>
+        <div class="gallery-item" data-category="city">
+            <img src="images/city1.jpg" alt="Architecture">
+            <div class="overlay"><span>City</span></div>
+        </div>
+        <div class="gallery-item" data-category="city">
+            <img src="images/city2.jpg" alt="City Bridge">
+            <div class="overlay"><span>City</span></div>
+        </div>
+        <div class="gallery-item" data-category="city">
+            <img src="https://picsum.photos/id/164/600/400" alt="City Boat">
+            <div class="overlay"><span>City</span></div>
+        </div>
+
+        <div class="gallery-item" data-category="people">
+            <img src="images/people.jpg" alt="Pug in blanket">
+            <div class="overlay"><span>People</span></div>
+        </div>
+        <div class="gallery-item" data-category="people">
+            <img src="images/people1.jpg" alt="Hiker">
+            <div class="overlay"><span>People</span></div>
+        </div>
+        <div class="gallery-item" data-category="people">
+            <img src="images/people2.jpg" alt="Crowd">
+            <div class="overlay"><span>People</span></div>
+        </div>
+        <div class="gallery-item" data-category="people">
+            <img src="https://picsum.photos/id/1005/600/400" alt="Man on Cliff">
+            <div class="overlay"><span>People</span></div>
+        </div>
+
+    </section>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn" id="close">&times;</span>
+        <span class="prev-btn" id="prev"><i class="fas fa-chevron-left"></i></span>
+        <span class="next-btn" id="next"><i class="fas fa-chevron-right"></i></span>
+        
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image" id="lightbox-img">
+            <div class="lightbox-caption">
+                <h3 id="caption-text"></h3>
+                <span id="current-count"></span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            
+            <div class="footer-section about">
+                <h3>Prism Gallery</h3>
+                <p>A curated collection of moments from around the world. Built with precision and passion.</p>
+            </div>
+
+            <div class="footer-section socials">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Prism Gallery <strong></strong><strong></strong></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
