@@ -4,7 +4,7 @@
 
 🔗 **[Live Demo](https://code-alpha-prism-gallery.vercel.app/)**
 
-![Prism Gallery Screenshot](galleryimg.jpg)
+![Prism Gallery Screenshot](images/galleryimg.png)
 
 ## 📋 Project Overview
 
@@ -50,7 +50,7 @@ The design features a custom "Dark Earth" theme (`#392616`) with "Burnt Orange" 
 ├── style.css         # Styling and Dark Theme logic
 ├── script.js         # Filtering and Lightbox logic
 ├── readme.md         # Project documentation
-├── galleryimg.jpg    # Preview image
+├── galleryimg.png    # Preview image
 └── images/           # Optimized image assets
     ├── nature1.jpg
     ├── city1.jpg
