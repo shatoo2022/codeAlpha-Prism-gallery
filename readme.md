@@ -33,7 +33,7 @@ The design features a custom "Dark Earth" theme (`#392616`) with "Burnt Orange" 
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/your-username/prism-gallery.git](https://github.com/your-username/prism-gallery.git)
+    git clone [https://github.com/shatoo2022/prism-gallery.git]
     ```
 2.  **Navigate to the project directory**
     ```bash
